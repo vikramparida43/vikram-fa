@@ -1,0 +1,9 @@
+echo "# vikram-tf" >> README.md
+git init
+git add README.md
+git config --global user.email "vikramparida43@gmail.com"
+git config --global user.name "Vikram"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vikramparida43/vikram-tf.git
+git push -u origin main
